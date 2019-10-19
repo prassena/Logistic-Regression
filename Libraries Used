@@ -39,3 +39,6 @@ import plotly.offline as offline
 import plotly.graph_objs as go
 offline.init_notebook_mode()
 from collections import Counter
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import GridSearchCV
